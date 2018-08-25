@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 	
-	@GetMapping(path="/test",produces="application/json")
+	@GetMapping(path="/testMethod",produces="application/json")
 	public String testGetMethod()
 	{
 		
